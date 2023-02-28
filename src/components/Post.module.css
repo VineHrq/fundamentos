@@ -1,0 +1,31 @@
+.container{
+    width: 51.45rem;
+    height: 38.8rem;
+    background-color: var(--gray-800);
+    border-radius: 8px;
+}
+.container header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 2.5rem 2.5rem 1rem 2.5rem ;
+}
+.nameFunction{
+    width: 100px;
+    height: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    margin-right: auto;
+}
+.nameFunction h1{
+    font-size: 1rem;
+}
+.nameFunction p, time{
+    font-weight: 400;
+    font-size: 0.875rem;
+    color: var(--gray-400);
+}
