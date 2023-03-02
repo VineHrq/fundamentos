@@ -14,6 +14,7 @@ export function App() {
         </aside>
         <main>
           <Post />
+          <Post />
         </main>
       </div>
 
