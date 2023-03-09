@@ -1,12 +1,13 @@
 import styles from './Post.module.css'
-import {Image} from './Image'
+import { Image } from './Image'
+import { Comment } from './Comment'
 
-export function Post(){
-return(
-   <main>
-    <div className={styles.container}>
+export function Post() {
+  return (
+    <main>
+      <div className={styles.container}>
         <header>
-          <Image picture="profile"/>
+          <Image picture="profile" />
           <div className={styles.nameFunction}>
             <h1>Jane Cooper</h1>
             <p>Dev Front-End</p>
@@ -21,15 +22,16 @@ return(
         </div>
         <form className={styles.commentForm}>
           <strong>Deixe seu feedback</strong>
-          <textarea placeholder='Deixe um comentário'/>
+          <textarea placeholder='Deixe um comentário' />
           <button type='submit'>Comentar</button>
-
         </form>
-        
-          
-        
-          
-        
-    </div>
-   </main>
-)}
+        <Comment />
+
+
+
+
+
+      </div>
+    </main>
+  )
+}
