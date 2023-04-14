@@ -25,7 +25,12 @@ export function Post() {
           <textarea placeholder='Deixe um comentário' />
           <button type='submit'>Comentar</button>
         </form>
-        <Comment />
+        <div className={styles.commentList}>
+          <Comment />
+          <Comment />
+          <Comment />
+        </div>
+
 
 
 

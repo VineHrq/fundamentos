@@ -97,3 +97,7 @@ time {
     background: var(--green-300);
     transition: background .2s;
 }
+
+.commentList {
+    margin-top: 2rem;
+}
